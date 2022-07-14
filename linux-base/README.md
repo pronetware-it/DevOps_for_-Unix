@@ -87,15 +87,16 @@ the terminal using the -l and -a switches.
    - delete the previously created subdirectory with the file requesting removal;
    - delete the file copied to the home directory.
 
-   - cd /home/
-   - mkdir -p dir
-   - cd ./dir
-   - sudo ls -la /root/ > root-dir.txt
-   - cat root-dir.txt
-   - cp root-dir.txt ~
-   - cp root-dir.txt /home/serhii_rozhko/
-   - rm -i -v root-dir.txt
-   - rm -i -v ~ root-dir.txt
+   ```cd /home/
+   mkdir -p dir
+   cd ./dir
+   sudo ls -la /root/ > root-dir.txt
+   cat root-dir.txt
+   cp root-dir.txt ~
+   cp root-dir.txt /home/serhii_rozhko/
+   rm -i -v root-dir.txt
+   rm -i -v ~ root-dir.txt
+   ```
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-2-5.gif)
 
