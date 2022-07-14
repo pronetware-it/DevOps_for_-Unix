@@ -96,7 +96,8 @@ the terminal using the -l and -a switches.
    cp root-dir.txt /home/serhii_rozhko/
    rm -i -v root-dir.txt
    rm -i -v ~ root-dir.txt
-   ```
+  
+ ```
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-2-5.gif)
 
