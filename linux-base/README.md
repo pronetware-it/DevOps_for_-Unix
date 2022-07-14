@@ -35,12 +35,16 @@ command.
 
 ## Task 1 Part 2 ##
 
-1) Examine the tree command. Master the technique of applying a template, for
+1) Examine the **tree** command. Master the technique of applying a template, for
 example, display all files that contain a character c, or files that contain a
 specific sequence of characters. List subdirectories of the root directory up to
 and including the second nesting level.
 
+- tree -P RE* /home/serhii_rozhko/
 
+- tree -L 2 /
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-2-1.gif)
 
 2) What command can be used to determine the type of file (for example, text or
 binary)? Give an example.
@@ -49,7 +53,6 @@ binary)? Give an example.
 
 3) Master the skills of navigating the file system using relative and absolute paths.
 How can you go back to your home directory from anywhere in the filesystem?
-
 
 
 4) Become familiar with the various options for the ls command. Give examples
