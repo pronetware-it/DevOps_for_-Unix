@@ -69,7 +69,13 @@ How can you go back to your home directory from anywhere in the filesystem?
 of listing directories using different keys. Explain the information displayed on
 the terminal using the -l and -a switches.
 
+- key -l conclusion in a long format: Before file names, access mode is issued, 
+  the number of links to the file, the names of the owner and group, 
+  the size in bytes and the time of the last modification.
 
+- key -a display a list of all files (without this option, hidden files are not displayed, the names of which begin at a point).
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-2-4.gif)
 
 5) Perform the following sequence of operations:
    - create a subdirectory in the home directory;
