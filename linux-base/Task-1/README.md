@@ -2,7 +2,7 @@
 1) Log in to the system as root.
 
 + To enter the system under the root of the user, we use the **sudo su** command.
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-1-1.gif)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-1-1.gif)
 
 2) Use the passwd command to change the password. Examine the basic parameters of the command. 
    What system file does it change *?
@@ -10,7 +10,7 @@
 + Under the user account, the passwd team can only change the password of this account.
   The team executed from root can change the password of any account.
 + The passwd team makes changes to the **/etc/shadow** file
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-1-2.gif)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-1-2.gif)
 
 3) Determine the users registered in the system, as well as what commands they
 execute. What additional information can be gleaned from the command
@@ -20,18 +20,18 @@ execution?
   it is enough  execute the **who --all** command, the key will be given all the information, 
   you can see the time of the last system load, the current level of execution,  
   the name of the host or the IP address, from which the user has logged into system.
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-1-3.gif)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-1-3.gif)
 
 4) Change personal information about yourself.
 
 + To change personal information, we use the **chfn** username command.
 + For check we use  **finger -lmsp** command.
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-1-4.gif)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-1-4.gif)
 
 8) List the contents of the home directory using the ls command, define its files
 and directories. Hint: Use the help system to familiarize yourself with the ls
 command.
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-1-8.gif)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-1-8.gif)
 
 ## Task 1 Part 2 ##
 
@@ -44,7 +44,7 @@ and including the second nesting level.
 
 - tree -L 2 /
 
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-2-1.gif)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-2-1.gif)
 
 2) What command can be used to determine the type of file (for example, text or
 binary)? Give an example.
@@ -55,7 +55,7 @@ binary)? Give an example.
   serhii_rozhko@ita-kh-077:~/DevOps_for_Unix/linux-base$ file -b 1-1-1.gif
   GIF image data, version 89a, 1035 x 250
 
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-2-2.gif)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-2-2.gif)
 
 
 3) Master the skills of navigating the file system using relative and absolute paths.
@@ -63,7 +63,7 @@ How can you go back to your home directory from anywhere in the filesystem?
 
 - cd ~
 
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-2-3.gif)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-2-3.gif)
 
 4) Become familiar with the various options for the ls command. Give examples
 of listing directories using different keys. Explain the information displayed on
@@ -75,7 +75,7 @@ the terminal using the -l and -a switches.
 
 - key -a display a list of all files (without this option, hidden files are not displayed, the names of which begin at a point).
 
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-2-4.gif)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-2-4.gif)
 
 5) Perform the following sequence of operations:
    - create a subdirectory in the home directory;
@@ -98,7 +98,7 @@ the terminal using the -l and -a switches.
    rm -i -v ~ root-dir.txt
    ```
 
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-2-5.gif)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-2-5.gif)
 
 6) Perform the following sequence of operations:
    - create a subdirectory test in the home directory;
@@ -127,13 +127,13 @@ the terminal using the -l and -a switches.
     ```ls -lih
     ```
 
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/sc-2.png)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/sc-2.png)
 
      The letter l in the group of file permissions signals to us that this file
      is a symbolic link to another file, which is also reflected in
      the file name - sym_lnk_lw2 -> LabWork2
 
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/sc-3.png)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/sc-3.png)
 
      It can be seen that the index number of sym_lnk_lw2 differs from other numbers, 
      since for the file system these are already two independent objects. Also noticeable is the difference in the set of rights
@@ -161,7 +161,7 @@ the terminal using the -l and -a switches.
   + sudo find / -name traceroute*
   + sudo find / -name squid*
  
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-2-7.gif)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-2-7.gif)
 
 8) Determine which partitions are mounted in the system, as well as the types of
    these partitions.
