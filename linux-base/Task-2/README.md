@@ -2,6 +2,20 @@
    present in it, what users exist on the system? Specify several pseudo-users, how
    to define them?
 2) What are the uid ranges? What is UID? How to define it?
+
+   - A UID (user identifier) is a number assigned by Linux to each user on the system. 
+     This number is used to identify the user to the system and to determine which system resources the user can access.
+
+   - UID 0 (zero) is reserved for the root.
+   - UIDs 1–99 are reserved for other predefined accounts.
+   - UID 100–999 are reserved by system for administrative and system accounts.
+   - UID 1000+ are used for user accounts.
+   
+   - GIDs are stored in the /etc/passwd file
+
+
+3) What is GID? How to define it?
+
    - Groups in Linux are defined by GIDs (group IDs).
 
    - GID 0 (zero) is reserved for the root group.
@@ -12,7 +26,6 @@
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-2/2-2.gif)
 
-3) What is GID? How to define it?
 4) How to determine belonging of user to the specific group?
 5) What are the commands for adding a user to the system? What are the basic
    parameters required to create a user?
