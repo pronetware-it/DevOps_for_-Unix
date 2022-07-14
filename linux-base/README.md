@@ -49,7 +49,11 @@ and including the second nesting level.
 2) What command can be used to determine the type of file (for example, text or
 binary)? Give an example.
 
-
+- To determine the type of file, we use the **file** utility
+- Commanr file *
+  OUTPUT: 
+  serhii_rozhko@ita-kh-077:~/DevOps_for_Unix/linux-base$ file -b 1-1-1.gif
+  GIF image data, version 89a, 1035 x 250
 
 3) Master the skills of navigating the file system using relative and absolute paths.
 How can you go back to your home directory from anywhere in the filesystem?
