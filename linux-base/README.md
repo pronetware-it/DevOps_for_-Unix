@@ -17,7 +17,7 @@ execute. What additional information can be gleaned from the command
 execution?
 
 + To get information about registered users in the system, 
-  it is enough  execute the who --all command, the key will be given all the information, 
+  it is enough  execute the **who --all** command, the key will be given all the information, 
   you can see the time of the last system load, the current level of execution,  
   the name of the host or the IP address, from which the user has logged into system.
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-1-3.gif)
