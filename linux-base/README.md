@@ -55,6 +55,9 @@ binary)? Give an example.
   serhii_rozhko@ita-kh-077:~/DevOps_for_Unix/linux-base$ file -b 1-1-1.gif
   GIF image data, version 89a, 1035 x 250
 
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-2-2.gif)
+
+
 3) Master the skills of navigating the file system using relative and absolute paths.
 How can you go back to your home directory from anywhere in the filesystem?
 
