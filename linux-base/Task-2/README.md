@@ -2,6 +2,16 @@
    present in it, what users exist on the system? Specify several pseudo-users, how
    to define them?
 2) What are the uid ranges? What is UID? How to define it?
+   - Groups in Linux are defined by GIDs (group IDs).
+
+   - GID 0 (zero) is reserved for the root group.
+   - GID 1–999 are reserved for the system and application use.
+   - GID 1000+ allocated for the user’s group.
+
+   - GIDs are stored in the /etc/groups file
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-2/2-2.gif)
+
 3) What is GID? How to define it?
 4) How to determine belonging of user to the specific group?
 5) What are the commands for adding a user to the system? What are the basic
