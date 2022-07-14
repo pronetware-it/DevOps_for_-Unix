@@ -61,6 +61,9 @@ binary)? Give an example.
 3) Master the skills of navigating the file system using relative and absolute paths.
 How can you go back to your home directory from anywhere in the filesystem?
 
+- cd ~
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-2-3.gif)
 
 4) Become familiar with the various options for the ls command. Give examples
 of listing directories using different keys. Explain the information displayed on
