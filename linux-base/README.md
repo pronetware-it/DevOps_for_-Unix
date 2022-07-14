@@ -27,3 +27,8 @@ execution?
 + To change personal information, we use the **chfn** username command.
 + For check we use  **finger -lmsp** command.
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-1-4.gif)
+
+8) List the contents of the home directory using the ls command, define its files
+and directories. Hint: Use the help system to familiarize yourself with the ls
+command.
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-1-8.gif)
