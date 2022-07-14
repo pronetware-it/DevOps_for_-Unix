@@ -96,8 +96,7 @@ the terminal using the -l and -a switches.
    cp root-dir.txt /home/serhii_rozhko/
    rm -i -v root-dir.txt
    rm -i -v ~ root-dir.txt
-  
- ```
+   ```
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-2-5.gif)
 
@@ -125,8 +124,8 @@ the terminal using the -l and -a switches.
       compare their index numbers by running the ls command along with the options 
       -l (display extended information), -i (display inode) and -h (use letters to indicate size):
 
-      ```ls -lih
-      ```
+    ```ls -lih
+    ```
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/sc-2.png)
 
@@ -152,7 +151,7 @@ the terminal using the -l and -a switches.
        ln LabWork2 hard_lnk_labwork2
 
        rm -r ~/link
-     ``` 
+    ``` 
      The original file was left untouched
 
 
