@@ -18,6 +18,14 @@
 
 8) How to remove a user from the system (including his mailbox)?
 9) What commands and keys should be used to lock and unlock a user account?
+   - passwd -l username
+   - passwd -u username
+   or
+   - usermod -L username
+   - usermod -U username
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-2/2-9.gif)
+
 10) How to remove a user's password and provide him with a password-free
     login for subsequent password change?
 11) Display the extended format of information about the directory, tell about
