@@ -117,7 +117,8 @@ the terminal using the -l and -a switches.
       mkdir -p link
       cp .bash_history ./link/LabWork2
       ln -s LabWork2 sym_lnk_lw2
-      ln LabWork2 har_lnk_lw2```
+      ln LabWork2 har_lnk_lw2
+   ```
 
       To make sure that LabWork2 and har_lnk_lw2 are, in fact, the same file system object, 
       compare their index numbers by running the ls command along with the options 
@@ -127,10 +128,13 @@ the terminal using the -l and -a switches.
       ```
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/sc-2.png)
+
      The letter l in the group of file permissions signals to us that this file
      is a symbolic link to another file, which is also reflected in
      the file name - sym_lnk_lw2 -> LabWork2
+
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/sc-3.png)
+
      It can be seen that the index number of sym_lnk_lw2 differs from other numbers, 
      since for the file system these are already two independent objects. Also noticeable is the difference in the set of rights
 
