@@ -51,7 +51,7 @@ binary)? Give an example.
 
 - To determine the type of file, we use the **file** utility
 - Commanr file *
-  OUTPUT: 
++ OUTPUT: 
   serhii_rozhko@ita-kh-077:~/DevOps_for_Unix/linux-base$ file -b 1-1-1.gif
   GIF image data, version 89a, 1035 x 250
 
