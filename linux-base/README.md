@@ -21,3 +21,9 @@ execution?
   you can see the time of the last system load, the current level of execution,  
   the name of the host or the IP address, from which the user has logged into system.
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-1-3.gif)
+
+4) Change personal information about yourself.
+
++ To change personal information, we use the **chfn** username command.
++ For check we use  **finger -lmsp** command.
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-1-4.gif)
