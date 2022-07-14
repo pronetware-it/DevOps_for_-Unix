@@ -157,6 +157,11 @@ the terminal using the -l and -a switches.
 
 7) Using the locate utility, find all files that contain the squid and traceroute
    sequence.
+   
+   ```sudo find / -name traceroute*
+      sudo find / -name squid*
+   ```
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/1-2-7.gif)
 
 8) Determine which partitions are mounted in the system, as well as the types of
    these partitions.
