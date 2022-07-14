@@ -13,6 +13,7 @@
    
    - GIDs are stored in the /etc/passwd file
 
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-2/2-3.gif)
 
 3) What is GID? How to define it?
 
