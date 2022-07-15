@@ -12,7 +12,21 @@
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-3/3-1.gif)
 
 2. Examine the pstree command. Make output (highlight) the chain (ancestors) of the current
-process.
+   process.
+
+
+
+  - `pstree -a`
+  - `pstree serhii_rozhko`
+
+ sshd
+  └─bash
+      ├─pstree -a serhii_rozhko
+      └─top
+
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-3/3-2.gif)
+
 3. What is a proc file system?
 4. Print information about the processor (its type, supported technologies, etc.).
 5. Use the ps command to get information about the process. The information should be as
