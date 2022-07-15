@@ -62,6 +62,11 @@ What condition are they in, or can they be arriving in?
 9. What utilities can be used to analyze existing running tasks (by analyzing the help for the ps
 command)?
 10. What information does top command display?
+
+-  The top program provides a dynamic real-time view of a running system.
+   It can display system summary information as well as a list of tasks currently being managed by the Linux kernel. 
+   The types of system summary information shown and the types, order and size of information.
+
 11. Display the processes of the specific user using the top command.
   
   -  `top -u username`
