@@ -50,6 +50,15 @@ execution, the group owner of this process, etc.
 7. Print the list of processes to the terminal. Briefly describe the statuses of the processes.
 What condition are they in, or can they be arriving in?
 8. Display only the processes of a specific user.
+  
+  -  `htop -u username`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-3/3-8.gif)
+
+  -  `ps -u username`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-3/3-8.1.gif)
+
 9. What utilities can be used to analyze existing running tasks (by analyzing the help for the ps
 command)?
 10. What information does top command display?
