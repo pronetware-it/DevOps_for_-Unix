@@ -40,6 +40,13 @@
 follows: the owner of the process, the arguments with which the process was launched for
 execution, the group owner of this process, etc.
 6. How to define kernel processes and user processes?
+ 
+ - User-space processes have its own virtual address space.
+ - Kernel processes or threads do not have their own address space, 
+   they operate within kernel address space only. And they may be started before the kernel 
+   has started any user process (e.g. init).
+
+
 7. Print the list of processes to the terminal. Briefly describe the statuses of the processes.
 What condition are they in, or can they be arriving in?
 8. Display only the processes of a specific user.
