@@ -61,6 +61,11 @@ What condition are they in, or can they be arriving in?
 
 9. What utilities can be used to analyze existing running tasks (by analyzing the help for the ps
 command)?
+
+  - `ps`
+  - `top`
+  - `htop`
+
 10. What information does top command display?
 
 -  The top program provides a dynamic real-time view of a running system.
