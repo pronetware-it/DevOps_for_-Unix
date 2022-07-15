@@ -44,6 +44,13 @@
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-2/2-5.gif)
 
 6) How do I change the name (account name) of an existing user?
+
+   - `sudo usermod -l newUsername oldUsername`
+
+   - `sudo usermod -d /home/newHomeDir -m newUsername`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-2/2-6.gif)
+
 7) What is skell_dir? What is its structure?
 
    - skel is derived from the skeleton because it contains basic structure of home directory
