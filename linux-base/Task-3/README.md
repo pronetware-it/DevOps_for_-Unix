@@ -62,7 +62,13 @@ What condition are they in, or can they be arriving in?
 9. What utilities can be used to analyze existing running tasks (by analyzing the help for the ps
 command)?
 10. What information does top command display?
-12. Display the processes of the specific user using the top command.
+11. Display the processes of the specific user using the top command.
+  
+  -  `top -u username`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-3/3-11.gif)
+ 
+
 12. What interactive commands can be used to control the top command? Give a couple of
 examples.
 13. Sort the contents of the processes window using various parameters (for example, the
