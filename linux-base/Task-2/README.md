@@ -61,12 +61,17 @@
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-2/2-7.gif)
 
 8) How to remove a user from the system (including his mailbox)?
+
+  - `sudo userdel -r username`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-2/2-8.gif)
+
 9) What commands and keys should be used to lock and unlock a user account?
-   - passwd -l username
-   - passwd -u username
-   or
-   - usermod -L username
-   - usermod -U username
+   - `passwd -l username`
+   - `passwd -u username`
+   - or
+   - `usermod -L username`
+   - `usermod -U username`
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-2/2-9.gif)
 
