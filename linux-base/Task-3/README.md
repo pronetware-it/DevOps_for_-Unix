@@ -28,7 +28,14 @@
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-3/3-2.gif)
 
 3. What is a proc file system?
+
 4. Print information about the processor (its type, supported technologies, etc.).
+
+  - `less /proc/cpuinfo`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-3/3-4.gif)
+
+
 5. Use the ps command to get information about the process. The information should be as
 follows: the owner of the process, the arguments with which the process was launched for
 execution, the group owner of this process, etc.
