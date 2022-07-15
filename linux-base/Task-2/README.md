@@ -28,6 +28,12 @@
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-2/2-2.gif)
 
 4) How to determine belonging of user to the specific group?
+   
+   - groups <username>
+   - id <username>
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-2/2-4.gif) 
+
 5) What are the commands for adding a user to the system? What are the basic
    parameters required to create a user?
 6) How do I change the name (account name) of an existing user?
