@@ -36,6 +36,13 @@
 
 5) What are the commands for adding a user to the system? What are the basic
    parameters required to create a user?
+
+   - `useradd -m username`
+   - `passws -e username`
+   - `adduser username`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-2/2-5.gif)
+
 6) How do I change the name (account name) of an existing user?
 7) What is skell_dir? What is its structure?
 
