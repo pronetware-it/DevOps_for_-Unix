@@ -1,5 +1,16 @@
 ## Task-3 Part 1 ##
 1. How many states could has a process in Linux?
+
+  - Running or Runnable (R)
+  - Uninterruptible Sleep (D)
+  - Interruptable Sleep (S)
+  - Stopped (T)
+  - Zombie (Z
+
+  `Tasks: 109 total,   1 running, 107 sleeping,   1 stopped,   0 zombie`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-3/3-1.gif)
+
 2. Examine the pstree command. Make output (highlight) the chain (ancestors) of the current
 process.
 3. What is a proc file system?
