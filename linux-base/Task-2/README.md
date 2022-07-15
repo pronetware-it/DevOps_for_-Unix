@@ -29,8 +29,8 @@
 
 4) How to determine belonging of user to the specific group?
    
-   - groups <username>
-   - id <username>
+   - `groups username`
+   - `id username`
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-2/2-4.gif) 
 
