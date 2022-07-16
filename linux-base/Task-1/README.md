@@ -52,7 +52,7 @@ drwxrwxr-x 2 serhii_rozhko serhii_rozhko 4096 Jul 14 13:04 .terminalizer - Hidde
 -rw------- 1 serhii_rozhko serhii_rozhko  168 Jul 16 12:21 .Xauthority - Hidden file
 ```
 
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-1-8.gif)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-8.gif)
 
 ## Task 1 Part 2 ##
 
