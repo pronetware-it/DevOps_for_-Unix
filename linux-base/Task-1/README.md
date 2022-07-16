@@ -31,6 +31,26 @@ execution?
 8) List the contents of the home directory using the ls command, define its files
 and directories. Hint: Use the help system to familiarize yourself with the ls
 command.
+
+
+```total 64
+drwxr-xr-x 8 serhii_rozhko serhii_rozhko 4096 Jul 16 13:49 .
+drwxr-xr-x 3 root          root          4096 Jul 15 15:19 ..
+-rw------- 1 serhii_rozhko serhii_rozhko 8421 Jul 16 13:50 .bash_history - Hidden directory
+-rw-r--r-- 1 serhii_rozhko serhii_rozhko  220 Jul 14 08:06 .bash_logout - Hidden directory
+-rw-r--r-- 1 serhii_rozhko serhii_rozhko 3771 Jul 14 08:06 .bashrc - Hidden directory
+drwx------ 2 serhii_rozhko serhii_rozhko 4096 Jul 14 08:10 .cache - Hidden directory
+drwx------ 5 serhii_rozhko serhii_rozhko 4096 Jul 15 13:21 .config - Hidden directory
+drwxrwxr-x 5 serhii_rozhko serhii_rozhko 4096 Jul 15 17:37 DevOps_for_Unix - Directory
+-rw-rw-r-- 1 serhii_rozhko serhii_rozhko   58 Jul 14 08:29 .gitconfig - Hidden file
+drwxrwxr-x 3 serhii_rozhko serhii_rozhko 4096 Jul 14 08:45 .local - Hidden file
+-rw-r--r-- 1 serhii_rozhko serhii_rozhko  807 Jul 14 08:06 .profile - Hidden file
+drwx------ 2 serhii_rozhko serhii_rozhko 4096 Jul 14 08:31 .ssh - Hidden directory
+-rw-r--r-- 1 serhii_rozhko serhii_rozhko    0 Jul 14 08:10 .sudo_as_admin_successful - Hidden file
+drwxrwxr-x 2 serhii_rozhko serhii_rozhko 4096 Jul 14 13:04 .terminalizer - Hidden directory
+-rw------- 1 serhii_rozhko serhii_rozhko  168 Jul 16 12:21 .Xauthority - Hidden file
+```
+
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-1-8.gif)
 
 ## Task 1 Part 2 ##
