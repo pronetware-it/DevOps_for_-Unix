@@ -29,6 +29,14 @@
 
 3. What is a proc file system?
 
+```Proc file system (procfs) is virtual file system created on fly when system boots and is dissolved at time of system shut down.
+
+  It contains useful information about the processes that are currently running,
+  it is regarded as control and information center for kernel.
+
+  The proc file system also provides communication medium between kernel space and user space.
+```
+
 4. Print information about the processor (its type, supported technologies, etc.).
 
   - `less /proc/cpuinfo`
