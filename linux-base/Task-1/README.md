@@ -32,6 +32,7 @@ execution?
 and directories. Hint: Use the help system to familiarize yourself with the ls
 command.
 
+ - `ls -la ~`
 
 ```total 64
 drwxr-xr-x 8 serhii_rozhko serhii_rozhko 4096 Jul 16 13:49 .
