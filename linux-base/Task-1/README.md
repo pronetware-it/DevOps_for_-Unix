@@ -184,8 +184,13 @@ sr0     11:0    1  58.7M  0 rom
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-2-8.gif)
 
-9) Count the number of lines containing a given sequence of characters in a given
-   file.
+### 9) Count the number of lines containing a given sequence of characters in a given file ###
+
+  - `wc -l -w file`
+  - -l  lines
+  - -w  words
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-2-9.gif) 
 
 10) Using the find command, find all files in the /etc directory containing the
     host character sequence.
