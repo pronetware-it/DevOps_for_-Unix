@@ -96,6 +96,10 @@ command)?
 
 12. What interactive commands can be used to control the top command? Give a couple of
 examples.
+
+  - `top -u username`
+  - `top -p PID,PID...`
+
 13. Sort the contents of the processes window using various parameters (for example, the
 amount of processor time taken up, etc.)
 14. Concept of priority, what commands are used to set priority?
