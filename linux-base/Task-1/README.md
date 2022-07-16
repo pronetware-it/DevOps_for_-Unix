@@ -166,7 +166,7 @@ the terminal using the -l and -a switches.
 8) Determine which partitions are mounted in the system, as well as the types of
    these partitions.
   - `lsblk`
-NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+```NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 loop0    7:0    0  61.9M  1 loop /snap/core20/1328
 loop1    7:1    0  61.9M  1 loop /snap/core20/1518
 loop2    7:2    0  67.2M  1 loop /snap/lxd/21835
@@ -180,6 +180,7 @@ sda      8:0    0   500G  0 disk
 ├─sda4   8:4    0   9.5G  0 part [SWAP]
 └─sda5   8:5    0 254.2G  0 part /home
 sr0     11:0    1  58.7M  0 rom
+```
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-2-8.gif)
 
