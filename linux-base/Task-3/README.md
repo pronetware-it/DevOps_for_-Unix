@@ -103,9 +103,17 @@ examples.
 13. Sort the contents of the processes window using various parameters (for example, the
 amount of processor time taken up, etc.)
 14. Concept of priority, what commands are used to set priority?
+ 
+ - user `nice` command
+
 15. Can I change the priority of a process using the top command? If so, how?
 16. Examine the kill command. How to send with the kill command
 process control signal? Give an example of commonly used signals.
+ 
+ - `sudo kill -9 process_id`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-3/3-16.gif)
+
 17. Commands jobs, fg, bg, nohup. What are they for? Use the sleep, yes command to
 demonstrate the process control mechanism with fg, bg.
 ## Task 1 Part 2 ##
