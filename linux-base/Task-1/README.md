@@ -165,6 +165,23 @@ the terminal using the -l and -a switches.
 
 8) Determine which partitions are mounted in the system, as well as the types of
    these partitions.
+  - `lsblk`
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0  61.9M  1 loop /snap/core20/1328
+loop1    7:1    0  61.9M  1 loop /snap/core20/1518
+loop2    7:2    0  67.2M  1 loop /snap/lxd/21835
+loop3    7:3    0  67.8M  1 loop /snap/lxd/22753
+loop4    7:4    0  43.6M  1 loop /snap/snapd/14978
+loop5    7:5    0    47M  1 loop /snap/snapd/16292
+sda      8:0    0   500G  0 disk
+├─sda1   8:1    0     1M  0 part
+├─sda2   8:2    0   236G  0 part /
+├─sda3   8:3    0   300M  0 part /boot
+├─sda4   8:4    0   9.5G  0 part [SWAP]
+└─sda5   8:5    0 254.2G  0 part /home
+sr0     11:0    1  58.7M  0 rom
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-2-8.gif)
 
 9) Count the number of lines containing a given sequence of characters in a given
    file.
