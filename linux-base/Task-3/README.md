@@ -19,17 +19,18 @@
   - `pstree -a`
   - `pstree serhii_rozhko`
 
- sshd
+``` sshd
   └─bash
       ├─pstree -a serhii_rozhko
       └─top
-
+```
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-3/3-2.gif)
 
 3. What is a proc file system?
 
-```Proc file system (procfs) is virtual file system created on fly when system boots and is dissolved at time of system shut down.
+```
+  Proc file system (procfs) is virtual file system created on fly when system boots and is dissolved at time of system shut down.
 
   It contains useful information about the processes that are currently running,
   it is regarded as control and information center for kernel.
