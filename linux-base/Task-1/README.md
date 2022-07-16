@@ -199,8 +199,18 @@ sr0     11:0    1  58.7M  0 rom
 
 12) Organize a screen-by-screen print of the contents of the /etc directory. Hint:
     You must use stream redirection operations.
+
+  - `ls /etc/ > directore-etc.txt`
+  - `tree /etc > directory-etc.txt`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-2-12.gif)
+
 13) What are the types of devices and how to determine the type of device? Give
     examples.
 14) How to determine the type of file in the system, what types of files are there?
-15) * List the first 5 directory files that were recently accessed in the /etc
+15) List the first 5 directory files that were recently accessed in the /etc
     directory.
+
+  - `ls -lht /etc/ | head -6`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-base/Task-1/1-2-15.gif)
