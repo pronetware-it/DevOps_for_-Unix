@@ -113,6 +113,17 @@ Authoritative answers can be found from:
 
 6. Determine, which IP address belongs to resource epam.com.
 
+- `nslookup epam.com`
+
+```Server:         127.0.0.53
+Address:        127.0.0.53#53
+
+Non-authoritative answer:
+Name:   epam.com
+Address: 3.214.134.159
+```
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/12.gif)
 
 7. Determine the default gateway for your HOST and display routing table.
 
