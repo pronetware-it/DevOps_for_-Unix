@@ -1,0 +1,347 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/serhii_rozhko
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 137
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 20
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Serhii_Rozhko
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 2559
+    content: "\e]0;serhii_rozhko@ln-vm-3-ita-kh-077: ~\aserhii_rozhko@ln-vm-3-ita-kh-077:~$ "
+  - delay: 2274
+    content: c
+  - delay: 94
+    content: a
+  - delay: 97
+    content: t
+  - delay: 182
+    content: ' '
+  - delay: 2872
+    content: /
+  - delay: 505
+    content: e
+  - delay: 133
+    content: t
+  - delay: 119
+    content: c/
+  - delay: 1268
+    content: 'n'
+  - delay: 116
+    content: e
+  - delay: 185
+    content: t
+  - delay: 95
+    content: "\a"
+  - delay: 1167
+    content: p
+  - delay: 123
+    content: lan/
+  - delay: 1467
+    content: '0'
+  - delay: 194
+    content: '1'
+  - delay: 153
+    content: '-netcfg.yaml '
+  - delay: 550
+    content: "\b"
+  - delay: 619
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 38
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 35
+    content: "\b"
+  - delay: 35
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 37
+    content: "\b"
+  - delay: 36
+    content: "\b"
+  - delay: 38
+    content: "\b"
+  - delay: 38
+    content: "\b"
+  - delay: 35
+    content: "\b"
+  - delay: 38
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 38
+    content: "\b"
+  - delay: 36
+    content: "\b"
+  - delay: 38
+    content: "\b"
+  - delay: 36
+    content: "\b"
+  - delay: 38
+    content: "\b"
+  - delay: 36
+    content: "\b"
+  - delay: 37
+    content: "\b"
+  - delay: 37
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 37
+    content: "\b"
+  - delay: 35
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 38
+    content: "\b"
+  - delay: 36
+    content: "\b"
+  - delay: 38
+    content: "\b"
+  - delay: 36
+    content: "\b"
+  - delay: 37
+    content: "\a"
+  - delay: 38
+    content: "\a"
+  - delay: 37
+    content: "\a"
+  - delay: 35
+    content: "\a"
+  - delay: 36
+    content: "\a"
+  - delay: 39
+    content: "\a"
+  - delay: 38
+    content: "\a"
+  - delay: 281
+    content: "\e[1@s"
+  - delay: 173
+    content: "\e[1@u"
+  - delay: 102
+    content: "\e[1@d"
+  - delay: 203
+    content: "\e[1@o"
+  - delay: 107
+    content: "\e[1@ "
+  - delay: 381
+    content: "\r\n"
+  - delay: 10
+    content: '[sudo] password for serhii_rozhko: '
+  - delay: 2895
+    content: "\r\n"
+  - delay: 17
+    content: "# This is the network config written by 'subiquity'\r\nnetwork:\r\n  version: 2\r\n  renderer: networkd\r\n  ethernets:\r\n    enp0s3:\r\n      dhcp4: true\r\n\e]0;serhii_rozhko@ln-vm-3-ita-kh-077: ~\aserhii_rozhko@ln-vm-3-ita-kh-077:~$ "
+  - delay: 1566
+    content: i
+  - delay: 90
+    content: p
+  - delay: 276
+    content: ' '
+  - delay: 167
+    content: a
+  - delay: 236
+    content: "\r\n1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000\r\n    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00\r\n    inet 127.0.0.1/8 scope host lo\r\n       valid_lft forever preferred_lft forever\r\n    inet6 ::1/128 scope host \r\n       valid_lft forever preferred_lft forever\r\n2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000\r\n    link/ether 08:00:27:d2:2f:df brd ff:ff:ff:ff:ff:ff\r\n    inet 10.15.15.16/24 brd 10.15.15.255 scope global dynamic enp0s3\r\n       valid_lft 21029sec preferred_lft 21029sec\r\n    inet6 fe80::a00:27ff:fed2:2fdf/64 scope link \r\n       valid_lft forever preferred_lft forever\r\n\e]0;serhii_rozhko@ln-vm-3-ita-kh-077: ~\aserhii_rozhko@ln-vm-3-ita-kh-077:~$ "
+  - delay: 2556
+    content: 'n'
+  - delay: 140
+    content: s
+  - delay: 408
+    content: l
+  - delay: 375
+    content: o
+  - delay: 171
+    content: o
+  - delay: 102
+    content: 'kup '
+  - delay: 955
+    content: g
+  - delay: 203
+    content: o
+  - delay: 187
+    content: o
+  - delay: 164
+    content: g
+  - delay: 853
+    content: l
+  - delay: 121
+    content: e
+  - delay: 333
+    content: .
+  - delay: 269
+    content: c
+  - delay: 145
+    content: o
+  - delay: 214
+    content: m
+  - delay: 314
+    content: "\r\n"
+  - delay: 205
+    content: "Server:\t\t10.15.15.1\r\nAddress:\t10.15.15.1#53\r\n\r\nNon-authoritative answer:\r\nName:\tgoogle.com\r\nAddress: 142.250.203.142\r\n"
+  - delay: 76
+    content: "Name:\tgoogle.com\r\nAddress: 2a00:1450:401b:802::200e\r\n\r\n\e]0;serhii_rozhko@ln-vm-3-ita-kh-077: ~\aserhii_rozhko@ln-vm-3-ita-kh-077:~$ "
+  - delay: 2154
+    content: c
+  - delay: 76
+    content: a
+  - delay: 195
+    content: t
+  - delay: 595
+    content: "\b\e[K"
+  - delay: 176
+    content: "\b\e[K"
+  - delay: 174
+    content: "\b\e[K"
+  - delay: 183
+    content: "\a"
+  - delay: 536
+    content: s
+  - delay: 146
+    content: u
+  - delay: 120
+    content: d
+  - delay: 207
+    content: o
+  - delay: 153
+    content: ' '
+  - delay: 508
+    content: c
+  - delay: 110
+    content: a
+  - delay: 199
+    content: t
+  - delay: 146
+    content: ' '
+  - delay: 708
+    content: /
+  - delay: 287
+    content: e
+  - delay: 323
+    content: t
+  - delay: 131
+    content: c/
+  - delay: 624
+    content: r
+  - delay: 82
+    content: e
+  - delay: 118
+    content: 'solv.conf '
+  - delay: 644
+    content: "\r\n"
+  - delay: 14
+    content: "# This file is managed by man:systemd-resolved(8). Do not edit.\r\n#\r\n# This is a dynamic resolv.conf file for connecting local clients to the\r\n# internal DNS stub resolver of systemd-resolved. This file lists all"
+  - delay: 8
+    content: "\r\n# configured search domains.\r\n#\r\n# Run \"resolvectl status\" to see details about the uplink DNS servers\r\n# currently in use.\r\n#\r\n# Third party programs must not access this file directly, but only through the\r\n# symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a different way,\r\n# replace this symlink by a static file or a different symlink.\r\n#\r\n# See man:systemd-resolved.service(8) for details about the supported modes of\r\n# operation for /etc/resolv.conf.\r\n\r\nnameserver 10.15.15.1\r\noptions edns0 trust-ad\r\nsearch ln-vm-1-ita-kh-077058\r\n\e]0;serhii_rozhko@ln-vm-3-ita-kh-077: ~\aserhii_rozhko@ln-vm-3-ita-kh-077:~$ "
+  - delay: 1417
+    content: "logout\r\n"
