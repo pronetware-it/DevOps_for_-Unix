@@ -1,0 +1,165 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/serhii_rozhko/DevOps_for_Unix/linux-network/Task-2
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 137
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 20
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Serhii_Rozhko
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 16
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1896
+    content: "\e]0;serhii_rozhko@ln-vm-1-ita-kh-077: ~/DevOps_for_Unix/linux-network/Task-2\aserhii_rozhko@ln-vm-1-ita-kh-077:~/DevOps_for_Unix/linux-network/Task-2$ "
+  - delay: 1080
+    content: sudo service isc-dhcp-server restart
+  - delay: 788
+    content: "\r\n"
+  - delay: 113
+    content: '[sudo] password for serhii_rozhko: '
+  - delay: 2959
+    content: "\r\n"
+  - delay: 149
+    content: "\e]0;serhii_rozhko@ln-vm-1-ita-kh-077: ~/DevOps_for_Unix/linux-network/Task-2\aserhii_rozhko@ln-vm-1-ita-kh-077:~/DevOps_for_Unix/linux-network/Task-2$ "
+  - delay: 1193
+    content: sudo service isc-dhcp-server restart
+  - delay: 220
+    content: "\b\e[K"
+  - delay: 176
+    content: "\b\e[K"
+  - delay: 146
+    content: "\b\e[K"
+  - delay: 163
+    content: "\b\e[K"
+  - delay: 167
+    content: "\b\e[K"
+  - delay: 158
+    content: "\b\e[K"
+  - delay: 409
+    content: "\b\e[K"
+  - delay: 319
+    content: s
+  - delay: 283
+    content: t
+  - delay: 94
+    content: a
+  - delay: 183
+    content: t
+  - delay: 217
+    content: u
+  - delay: 117
+    content: s
+  - delay: 365
+    content: "\r\n"
+  - delay: 156
+    content: "\e[?1h\e=\r"
+  - delay: 55
+    content: "\e[0;1;32m●\e[0m isc-dhcp-server.service - ISC DHCP IPv4 server\e[m\r\n     Loaded: loaded (/lib/systemd/system/isc-dhcp-server.service; enabled; vendor preset: enabled)\e[m\r\n     Active: \e[0;1;32mactive (running)\e[0m since Sun 2022-07-17 18:55:25 UTC; 4s ago\e[m\r\n       Docs: man:dhcpd(8)\e[m\r\n   Main PID: 15247 (dhcpd)\e[m\r\n      Tasks: 4 (limit: 1669)\e[m\r\n     Memory: 7.0M\e[m\r\n     CGroup: /system.slice/isc-dhcp-server.service\e[m\r\n             └─15247 dhcpd -user dhcpd -group dhcpd -f -4 -pf /run/dhcp-server/dhcpd.pid -cf /etc/dhcp/dhcpd.conf enp0s8\e[m\r\n\e[m\r\nJul 17 18:55:25 ln-vm-1-ita-kh-077 dhcpd[15247]: For info, please visit https://www.isc.org/software/dhcp/\e[m\r\nJul 17 18:55:25 ln-vm-1-ita-kh-077 dhcpd[15247]: Wrote 2 leases to leases file.\e[m\r\nJul 17 18:55:25 ln-vm-1-ita-kh-077 sh[15247]: Wrote 2 leases to leases file.\e[m\r\nJul 17 18:55:25 ln-vm-1-ita-kh-077 dhcpd[15247]: Listening on LPF/enp0s8/08:00:27:a9:d1:32/10.15.15.0/24\e[m\r\nJul 17 18:55:25 ln-vm-1-ita-kh-077 sh[15247]: Listening on LPF/enp0s8/08:00:27:a9:d1:32/10.15.15.0/24\e[m\r\nJul 17 18:55:25 ln-vm-1-ita-kh-077 sh[15247]: Sending on   LPF/enp0s8/08:00:27:a9:d1:32/10.15.15.0/24\e[m\r\nJul 17 18:55:25 ln-vm-1-ita-kh-077 dhcpd[15247]: Sending on   LPF/enp0s8/08:00:27:a9:d1:32/10.15.15.0/24\e[m\r\nJul 17 18:55:25 ln-vm-1-ita-kh-077 dhcpd[15247]: Sending on   Socket/fallback/fallback-net\e[m\r\nJul 17 18:55:25 ln-vm-1-ita-kh-077 sh[15247]: Sending on   Socket/fallback/fallback-net\e[m\r\n\e[7mlines 1-19\e[27m\e[K"
+  - delay: 1616
+    content: "\r\e[K\e[?1l\e>"
+  - delay: 5
+    content: "\e]0;serhii_rozhko@ln-vm-1-ita-kh-077: ~/DevOps_for_Unix/linux-network/Task-2\aserhii_rozhko@ln-vm-1-ita-kh-077:~/DevOps_for_Unix/linux-network/Task-2$ "
+  - delay: 724
+    content: "logout\r\n"

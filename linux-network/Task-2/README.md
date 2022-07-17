@@ -19,6 +19,15 @@ You should use at least 2 of them.
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-2/2.gif)
 
+- `sudo nano /etc/dhcp/dhcpd.conf`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-2/4.gif)
+
+- `sudo service isc-dhcp-server restart`
+- `sudo service isc-dhcp-server status`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-2/3.gif)
+
 
 3. Check VM2 and VM3 for obtaining network addresses from DHCP server.
 
