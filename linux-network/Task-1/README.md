@@ -129,4 +129,7 @@ Address: 3.214.134.159
 
 
 8. Trace the route to google.com.
-1
+
+- `traceroute google.com`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/13.gif)
