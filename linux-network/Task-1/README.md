@@ -57,3 +57,11 @@ So that the changes made to enter into force
 - `sudo iptables -L -v --line-numbers`
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/6.gif)
+
+### Enable MASQUERADE ###
+
+- `sudo iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE`
+
+- `sudo iptables -t nat -L -v --line-numbers`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/7.gif)
