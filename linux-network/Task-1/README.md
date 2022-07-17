@@ -49,5 +49,10 @@ So that the changes made to enter into force
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/5.gif)
 
+### Setting iptables ###
 
+- `sudo iptables -A FORWARD -i enp0s8 -o enp0s3 -m state --state RELATED,ESTABLISHED -j ACCEPT`
+- `sudo iptables -A FORWARD -i enp0s8 -o enp0s3 -j ACCEPT`
+
+- `sudo iptables -L -v --line-numbers`
 
