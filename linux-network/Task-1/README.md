@@ -103,8 +103,8 @@ So that the changes made to enter into force
 
 - `nslookup 8.8.8.8`
 
-```8.8.8.8.in-addr.arpa    name = dns.google.
-
+```
+8.8.8.8.in-addr.arpa    name = dns.google.
 Authoritative answers can be found from:
 ```
 
@@ -118,3 +118,4 @@ Authoritative answers can be found from:
 
 
 8. Trace the route to google.com.
+1
