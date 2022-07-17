@@ -65,6 +65,9 @@ use DNSMASQ, BIND9 or something else).
 - `sudo named-checkconf`
 - `sudo systemctl restart bind9`
 
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-2/status-dns.gif)
+
+
 5. Check VM2 and VM3 for gaining access to DNS server (naming services).
 
 - Check dhcp in VM2
