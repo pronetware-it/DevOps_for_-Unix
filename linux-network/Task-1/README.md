@@ -65,3 +65,20 @@ So that the changes made to enter into force
 - `sudo iptables -t nat -L -v --line-numbers`
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/7.gif)
+
+3. Check the route from VM2 to Host.
+
+
+4. Check the access to the Internet, (just ping, for example, 8.8.8.8).
+
+
+5. Determine, which resource has an IP address 8.8.8.8.
+
+
+6. Determine, which IP address belongs to resource epam.com.
+
+
+7. Determine the default gateway for your HOST and display routing table.
+
+
+8. Trace the route to google.com.
