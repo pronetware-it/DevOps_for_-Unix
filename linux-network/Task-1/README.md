@@ -29,6 +29,29 @@ network:
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/1.gif)
 
+### Setting interfaces VM 2 ###
+
+- `sudo cp /etc/netplan/00-installer-config.yaml 01-netcfg.yaml`
+- `sudo nano /etc/netplan/01-netcfg.yaml`
+
+```# This is the network config written by 'subiquity'
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s3:
+      dhcp4: false
+      addresses: [10.15.15.2/24]
+      gateway4: 10.15.15.1
+      nameservers:
+          addresses: [8.8.8.8, 8.8.4.4]
+```
+
+- `sudo netplan try`
+- `sudo netplan apply`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/8.gif)
+
 ### Enable forward ###
 
 By default, transit traffic is disabled
