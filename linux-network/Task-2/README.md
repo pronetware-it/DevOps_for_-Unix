@@ -48,7 +48,11 @@ You should use at least 2 of them.
 4. Using existed network for three VMs (from p.1) install and configure DNS server on VM1. (You can
 use DNSMASQ, BIND9 or something else).
 
+- `sudo apt install bind9`
+- `sudo nano /etc/bind/named.conf.options`
 
+- `sudo named-checkconf`
+- `sudo systemctl restart bind9`
 
 5. Check VM2 and VM3 for gaining access to DNS server (naming services).
 
