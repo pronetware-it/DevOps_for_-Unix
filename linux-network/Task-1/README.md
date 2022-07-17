@@ -103,6 +103,11 @@ So that the changes made to enter into force
 
 - `nslookup 8.8.8.8`
 
+```8.8.8.8.in-addr.arpa    name = dns.google.
+
+Authoritative answers can be found from:
+```
+
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/11.gif)
 
 
