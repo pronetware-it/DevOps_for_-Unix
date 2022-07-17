@@ -35,14 +35,19 @@ By default, transit traffic is disabled
 
 - `cat /proc/sys/net/ipv4/ip_forward`
 
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/2.gif)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/3.gif)
 
 - `sudo nano /etc/sysctl.conf`
 
 To turn on, edit the line `#net.ipv4.ip_forward=1` on `net.ipv4.ip_forward=1`
 
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/2.gif)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/4.gif)
 
 So that the changes made to enter into force
 
 - `sudo sysctl -p /etc/sysctl.conf`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/5.gif)
+
+
+
