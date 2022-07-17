@@ -91,6 +91,10 @@ So that the changes made to enter into force
 
 3. Check the route from VM2 to Host.
 
+- `traceroute 192.168.55.1`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/14.gif)
+
 
 4. Check the access to the Internet, (just ping, for example, 8.8.8.8).
 
