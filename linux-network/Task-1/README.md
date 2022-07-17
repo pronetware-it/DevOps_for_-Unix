@@ -1,7 +1,9 @@
 ## Task-1 ##
 1. Create virtual machines connection according to figure 1:
 
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/sc-net-1.png)
 
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/sc-net-2.png)
 
 
 2. VM2 has one interface (internal), VM1 has 2 interfaces (NAT and internal). Configure all network
@@ -131,6 +133,42 @@ Address: 3.214.134.159
 
 7. Determine the default gateway for your HOST and display routing table.
 
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/sc-net-3.png)
+
+```C:\Users\Project>route print
+===========================================================================
+Список интерфейсов
+  2...28 d2 44 49 a9 dd ......Realtek PCIe FE Family Controller
+  9...0a 00 27 00 00 09 ......VirtualBox Host-Only Ethernet Adapter
+  3...fc f8 ae 1f cd be ......Microsoft Wi-Fi Direct Virtual Adapter
+  5...fe f8 ae 1f cd bd ......Microsoft Wi-Fi Direct Virtual Adapter #2
+ 11...fc f8 ae 1f cd bd ......Intel(R) Wireless-N 7260
+ 12...fc f8 ae 1f cd c1 ......Bluetooth Device (Personal Area Network)
+  1...........................Software Loopback Interface 1
+===========================================================================
+
+IPv4 таблица маршрута
+===========================================================================
+Активные маршруты:
+Сетевой адрес           Маска сети      Адрес шлюза       Интерфейс  Метрика
+          0.0.0.0          0.0.0.0      192.168.1.1     192.168.1.55     45
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+      192.168.1.0    255.255.255.0         On-link      192.168.1.55    301
+     192.168.1.55  255.255.255.255         On-link      192.168.1.55    301
+    192.168.1.255  255.255.255.255         On-link      192.168.1.55    301
+     192.168.56.0    255.255.255.0         On-link      192.168.56.1    281
+     192.168.56.1  255.255.255.255         On-link      192.168.56.1    281
+   192.168.56.255  255.255.255.255         On-link      192.168.56.1    281
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+        224.0.0.0        240.0.0.0         On-link      192.168.56.1    281
+        224.0.0.0        240.0.0.0         On-link      192.168.1.55    301
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+  255.255.255.255  255.255.255.255         On-link      192.168.56.1    281
+  255.255.255.255  255.255.255.255         On-link      192.168.1.55    301
+===========================================================================
+```
 
 8. Trace the route to google.com.
 
