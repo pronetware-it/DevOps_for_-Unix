@@ -94,6 +94,10 @@ So that the changes made to enter into force
 
 4. Check the access to the Internet, (just ping, for example, 8.8.8.8).
 
+- `ping 8.8.8.8`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/10.gif)
+
 
 5. Determine, which resource has an IP address 8.8.8.8.
 
