@@ -11,9 +11,6 @@ VM2, VM3 – internal only interfaces.
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-2/sc-ts-3.png)
 
-
-
-
 2. Install and configure DHCP server on VM1. (3 ways: using VBoxManage, DNSMASQ and ISC-DHSPSERVER).
 You should use at least 2 of them.
 
@@ -51,8 +48,6 @@ You should use at least 2 of them.
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-2/ch-vm3-dhcp.gif)
 
-
-
 4. Using existed network for three VMs (from p.1) install and configure DNS server on VM1. (You can
 use DNSMASQ, BIND9 or something else).
 
@@ -70,11 +65,11 @@ use DNSMASQ, BIND9 or something else).
 
 5. Check VM2 and VM3 for gaining access to DNS server (naming services).
 
-- Check dhcp in VM2
+- Check dns in VM2
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-2/ch-vm2-dns.gif)
 
-- Check dhcp in VM3
+- Check dns in VM3
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-2/ch-vm3-dns.gif)
 

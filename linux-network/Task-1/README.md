@@ -83,6 +83,12 @@ So that the changes made to enter into force
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/6.gif)
 
+### Save iptables ###
+
+- `sudo apt install iptables-persistent`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/save-iptables.gif)
+
 ### Enable MASQUERADE ###
 
 - `sudo iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE`
