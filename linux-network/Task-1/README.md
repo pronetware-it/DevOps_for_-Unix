@@ -101,6 +101,10 @@ So that the changes made to enter into force
 
 5. Determine, which resource has an IP address 8.8.8.8.
 
+- `nslookup 8.8.8.8`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-1/11.gif)
+
 
 6. Determine, which IP address belongs to resource epam.com.
 
