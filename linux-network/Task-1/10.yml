@@ -1,0 +1,217 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/serhii_rozhko/DevOps_for_Unix/linux-network/Task-1
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 137
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 20
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Serhii_Rozhko
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1798
+    content: "\e]0;serhii_rozhko@ln-vm-2-ita-kh-077: ~/DevOps_for_Unix/linux-network/Task-1\aserhii_rozhko@ln-vm-2-ita-kh-077:~/DevOps_for_Unix/linux-network/Task-1$ "
+  - delay: 1716
+    content: p
+  - delay: 234
+    content: i
+  - delay: 453
+    content: 'n'
+  - delay: 103
+    content: g
+  - delay: 99
+    content: ' '
+  - delay: 898
+    content: '8'
+  - delay: 105
+    content: .
+  - delay: 157
+    content: '8'
+  - delay: 163
+    content: .
+  - delay: 118
+    content: '8'
+  - delay: 200
+    content: .
+  - delay: 166
+    content: '8'
+  - delay: 501
+    content: "\r\n"
+  - delay: 7
+    content: "PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.\r\n"
+  - delay: 66
+    content: "64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=65.0 ms\r\n"
+  - delay: 981
+    content: "64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=44.7 ms\r\n"
+  - delay: 996
+    content: "64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=39.8 ms\r\n"
+  - delay: 1002
+    content: "64 bytes from 8.8.8.8: icmp_seq=4 ttl=112 time=40.4 ms\r\n"
+  - delay: 1005
+    content: "64 bytes from 8.8.8.8: icmp_seq=5 ttl=112 time=43.6 ms\r\n"
+  - delay: 999
+    content: "64 bytes from 8.8.8.8: icmp_seq=6 ttl=112 time=41.6 ms\r\n"
+  - delay: 764
+    content: "^C\r\n--- 8.8.8.8 ping statistics ---\r\n6 packets transmitted, 6 received, 0% packet loss, time 5009ms\r\nrtt min/avg/max/mdev = 39.821/45.828/64.966/8.725 ms\r\n\e]0;serhii_rozhko@ln-vm-2-ita-kh-077: ~/DevOps_for_Unix/linux-network/Task-1\aserhii_rozhko@ln-vm-2-ita-kh-077:~/DevOps_for_Unix/linux-network/Task-1$ "
+  - delay: 712
+    content: ping 8.8.8.8
+  - delay: 234
+    content: "\b\e[K"
+  - delay: 171
+    content: "\b\e[K"
+  - delay: 165
+    content: "\b\e[K"
+  - delay: 154
+    content: "\b\e[K"
+  - delay: 162
+    content: "\b\e[K"
+  - delay: 160
+    content: "\b\e[K"
+  - delay: 390
+    content: "\b\e[K"
+  - delay: 361
+    content: g
+  - delay: 502
+    content: o
+  - delay: 179
+    content: o
+  - delay: 158
+    content: o
+  - delay: 650
+    content: "\b\e[K"
+  - delay: 164
+    content: g
+  - delay: 540
+    content: l
+  - delay: 104
+    content: e
+  - delay: 309
+    content: .
+  - delay: 197
+    content: c
+  - delay: 145
+    content: o
+  - delay: 253
+    content: m
+  - delay: 343
+    content: "\r\n"
+  - delay: 95
+    content: "PING google.com (142.250.186.206) 56(84) bytes of data.\r\n"
+  - delay: 88
+    content: "64 bytes from waw07s05-in-f14.1e100.net (142.250.186.206): icmp_seq=1 ttl=111 time=42.3 ms\r\n"
+  - delay: 959
+    content: "64 bytes from waw07s05-in-f14.1e100.net (142.250.186.206): icmp_seq=2 ttl=111 time=44.4 ms\r\n"
+  - delay: 999
+    content: "64 bytes from waw07s05-in-f14.1e100.net (142.250.186.206): icmp_seq=3 ttl=111 time=44.2 ms\r\n"
+  - delay: 999
+    content: "64 bytes from waw07s05-in-f14.1e100.net (142.250.186.206): icmp_seq=4 ttl=111 time=42.4 ms\r\n"
+  - delay: 1002
+    content: "64 bytes from waw07s05-in-f14.1e100.net (142.250.186.206): icmp_seq=5 ttl=111 time=44.1 ms\r\n"
+  - delay: 999
+    content: "64 bytes from waw07s05-in-f14.1e100.net (142.250.186.206): icmp_seq=6 ttl=111 time=42.3 ms\r\n"
+  - delay: 257
+    content: "^C\r\n--- google.com ping statistics ---\r\n6 packets transmitted, 6 received, 0% packet loss, time 5008ms\r\nrtt min/avg/max/mdev = 42.264/43.285/44.392/0.951 ms\r\n\e]0;serhii_rozhko@ln-vm-2-ita-kh-077: ~/DevOps_for_Unix/linux-network/Task-1\aserhii_rozhko@ln-vm-2-ita-kh-077:~/DevOps_for_Unix/linux-network/Task-1$ "
+  - delay: 1317
+    content: "logout\r\n"
