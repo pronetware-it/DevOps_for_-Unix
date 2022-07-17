@@ -31,6 +31,18 @@ You should use at least 2 of them.
 
 3. Check VM2 and VM3 for obtaining network addresses from DHCP server.
 
+- Check dhcp list on VM1
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-2/dhcp-list.gif)
+
+- Chech dhcp in VM2
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-2/ch-vm2-dhcp.gif)
+
+- Chech dhcp in VM3
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/linux-network/Task-2/ch-vm3-dhcp.gif)
+
 
 
 4. Using existed network for three VMs (from p.1) install and configure DNS server on VM1. (You can
