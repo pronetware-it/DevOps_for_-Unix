@@ -10,7 +10,7 @@ Using docker lection2 create a docker image with Python Flask app that displays 
 2 - Create file structure 
 
 
-`touch ./flask-app/{app.py,requirement.txt,templates/index.htm,templates/Dockerfile}`
+`touch ./flask-app/{app.py,requirement.txt,templates/index.html,templates/Dockerfile}`
 
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/touch.gif)
@@ -55,7 +55,7 @@ app.run(host="0.0.0.0")
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/requ.gif)
 
-5 - Content of index.hml
+5 - Content of index.html
 
 ```<html>
 <head>
@@ -87,3 +87,25 @@ text-transform: uppercase;
 ```
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/index.gif)
+
+6 - Content of Dockerfile
+
+```# our base image
+FROM alpine:3.5
+# Install python and pip
+RUN apk add --update py2-pip
+# upgrade pip
+RUN pip install --upgrade pip
+# install Python modules needed by the Python app
+COPY requirements.txt /usr/src/app/
+RUN pip install --no-cache-dir -r /usr/src/app/requirements.txt
+# copy files required for the app to run
+COPY app.py /usr/src/app/
+COPY templates/index.html /usr/src/app/templates/
+# tell the port number the container should expose
+EXPOSE 5000
+# run the application
+CMD ["python", "/usr/src/app/app.py"]
+```
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/content-docker.gif)
