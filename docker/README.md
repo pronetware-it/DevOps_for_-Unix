@@ -132,7 +132,7 @@ CMD ["python", "/usr/src/app/app.py"]
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/docker-build.gif)
 
-- Not a mistake, but a warning
+Not a mistake, but a warning
 
 '''DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020.
 Please upgrade your Python as Python 2.7 is no longer maintained. 
