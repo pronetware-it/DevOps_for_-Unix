@@ -115,7 +115,7 @@ CMD ["python", "/usr/src/app/app.py"]
 
 - `mv ./flask-app/templates/Dockerfile ~/DevOps_for_Unix/docker/flask-app/`
 
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/mv-docker.gif) 
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/mv-dockerfile.gif) 
 
 
 8 - Docker images building
