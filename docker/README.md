@@ -54,3 +54,36 @@ app.run(host="0.0.0.0")
 
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/requ.gif)
+
+5 - Content of index.hml
+
+```<html>
+<head>
+<style type="text/css">
+body {
+background: black;
+color: white;
+}
+div.container {
+max-width: 500px;
+margin: 100px auto;
+border: 20px solid white;
+padding: 10px;
+text-align: center;
+}
+h4 {
+text-transform: uppercase;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h4>Cat Gif of the day</h4>
+<img src="{{url}}" />
+<p><small>Courtesy: <a href="https://www.catshaming.co.uk/20-best-cat-gif-posts/">Catshaming</a></small></p>
+</div>
+</body>
+</html>
+```
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/index.gif)
