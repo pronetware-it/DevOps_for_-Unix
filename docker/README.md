@@ -3,19 +3,21 @@ Using docker lection2 create a docker image with Python Flask app that displays 
 
 1 - Create directory structure
 
-`mkdir -p flask-app/templates`
+- `mkdir -p flask-app/templates`
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/mkdir.gif)
 
 2 - Create file structure 
 
 
-`touch ./flask-app/{app.py,requirement.txt,templates/index.html,templates/Dockerfile}`
+- `touch ./flask-app/{app.py,requirement.txt,templates/index.html,templates/Dockerfile}`
 
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/touch.gif)
 
 3 - Content of app.py
+
+- `nano app.py`
 
 ```from flask import Flask, render_template
 import random
@@ -50,12 +52,16 @@ app.run(host="0.0.0.0")
 
 4 - Content of requirements.txt
 
+- `echo "Flask==0.10.1"> requirements.txt`
+
   - `Flask==0.10.1`
 
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/requ.gif)
 
 5 - Content of index.html
+
+- `nano index.html`
 
 ```<html>
 <head>
@@ -90,6 +96,8 @@ text-transform: uppercase;
 
 6 - Content of Dockerfile
 
+- `nano Dockerfile`
+
 ```# our base image
 FROM alpine:3.5
 # Install python and pip
@@ -120,6 +128,16 @@ CMD ["python", "/usr/src/app/app.py"]
 
 8 - Docker images building
 
-`docker build -t serhii_rozhko/mycatapp .`
+- `docker build -t serhii_rozhko/mycatapp .`
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/docker-build.gif)
+
+- Not a mistake, but a warning
+
+'''DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020.
+Please upgrade your Python as Python 2.7 is no longer maintained. 
+pip 21.0 will drop support for Python 2.7 in January 2021. 
+More details about Python 2 support in pip can be found at 
+https://pip.pypa.io/en/latest/development/release-process/#python-2-support 
+pip 21.0 will remove support for this functionality.
+'''
