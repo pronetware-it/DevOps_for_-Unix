@@ -48,4 +48,9 @@ app.run(host="0.0.0.0")
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/app.gif)
 
+4 - Content of requirements.txt
 
+  - `Flask==0.10.1`
+
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/requ.gif)
