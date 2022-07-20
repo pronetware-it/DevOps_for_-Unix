@@ -109,3 +109,17 @@ CMD ["python", "/usr/src/app/app.py"]
 ```
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/content-docker.gif)
+
+
+7 - Move of Dockerfile
+
+- `mv ./flask-app/templates/Dockerfile ~/DevOps_for_Unix/docker/flask-app/`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/mv-docker.gif) 
+
+
+8 - Docker images building
+
+`docker build -t serhii_rozhko/mycatapp .`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/docker-build.gif)
