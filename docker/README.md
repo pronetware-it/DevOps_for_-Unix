@@ -154,4 +154,4 @@ pip 21.0 will remove support for this functionality.
 
 10 - Result
 
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/docker-run-result.png)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/docker-run-result.gif)
