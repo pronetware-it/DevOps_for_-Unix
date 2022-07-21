@@ -155,3 +155,20 @@ pip 21.0 will remove support for this functionality.
 10 - Result
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/docker-run-result.gif)
+
+
+11 - Login on docker hub
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/docker-login.gif)
+
+12 - Docker push images
+
+- `docker tag serhii_rozhko/mycatapp pronetwareit/mycatapp`
+
+- `docker push pronetwareit/mycatapp`
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/docker-push.png)
+
+- ![Link on Docker Hub]()
+
+
