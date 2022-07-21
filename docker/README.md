@@ -47,7 +47,7 @@ def index():
 if __name__ == "__main__":
 ```
 
-![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/contenr-app.gif)
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/content-app.gif)
 
 4 - Content of requirements.txt
 
