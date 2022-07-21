@@ -1,6 +1,10 @@
 # Task #
 Using docker lection2 create a docker image with Python Flask app that displays random cat pix.
 
+0 - Structure app
+
+![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/structure-app.png)
+
 1 - Create directory structure
 
 - `mkdir -p flask-app/templates`
