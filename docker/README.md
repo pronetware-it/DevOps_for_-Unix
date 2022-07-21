@@ -173,6 +173,7 @@ pip 21.0 will remove support for this functionality.
 
 ![image](https://github.com/pronetware-it/DevOps_for_Unix/blob/main/docker/docker-push-result.png)
 
-- ![Link on Docker Hub](https://hub.docker.com/repository/docker/pronetwareit/mycatapp)
+- [Link on Docker Hub](https://hub.docker.com/repository/docker/pronetwareit/mycatapp)
+
 
 
